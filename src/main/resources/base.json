@@ -1,0 +1,12 @@
+{
+  "name": "lotan",
+  "display_name": "lotion_dude",
+  "range": {
+    "lt": 3,
+    "gt": 1
+  },
+  "range_unchanged": {
+    "lt": 3,
+    "gt": 1
+  }
+}

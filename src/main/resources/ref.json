@@ -1,0 +1,18 @@
+{
+  "name": "name",
+  "display_name": "display_name",
+  "range": {
+    "lt": "lt",
+    "gt": "gt"
+  },
+  "range_unchanged": "range_unchanged",
+  "arr_unchanged": "arr_unchanged",
+  "arr": [
+    {
+      "range_arr": {
+        "lt": "lt_arr",
+        "rt_arr": "rt_arr"
+      }
+    }
+  ]
+}
