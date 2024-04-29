@@ -1,4 +1,4 @@
-package org.lotan.utility.convert;
+package org.lotan.utility;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.Getter;
