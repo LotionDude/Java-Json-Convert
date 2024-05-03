@@ -1,15 +1,12 @@
 {
-  "name": "name",
-  "display_name": "display_name",
-  "range": {
-    "lt": "lt",
-    "gt": "gt"
-  },
-  "match --ref='match_arr'": [
+  "username --type=str": "username",
+  "password --type=str": "password",
+  "posts --ref=posts": [
     {
-      "match": {
-        "a": "a",
-        "b": "b"
+      "info": {
+        "likes --type=int": "likes",
+        "date --type=str": "date",
+        "content --type=str": "content"
       }
     }
   ]

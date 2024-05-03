@@ -1,16 +1,13 @@
 {
-  "name": "name",
-  "display_name": "display_name",
-  "range_info": {
-    "range": {
-      "lt": "lt",
-      "gt": "gt"
-    }
+  "user_information": {
+    "username": "username",
+    "password": "password"
   },
-  "match --ref='match_arr'": [
+  "posts --ref=posts": [
     {
-      "a": "a",
-      "b": "b"
+      "likes": "likes",
+      "date": "date",
+      "content": "content"
     }
   ]
 }
