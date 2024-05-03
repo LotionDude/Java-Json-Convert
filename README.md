@@ -132,7 +132,7 @@ For example: `name --type=arr --ref='my_arr'`
 
 #### Type flags
 
-Throws an error if the target object does not match the type of the request object.
+Throws an error if the target property does not match the type of the request object.
 (currently non-functional on response schema)
 
 - `--type=int`: Integer
