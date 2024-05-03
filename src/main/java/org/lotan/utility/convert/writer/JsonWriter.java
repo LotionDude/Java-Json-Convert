@@ -16,7 +16,7 @@ public class JsonWriter {
         return this.get(reference, jsonParams.getReqNode(), jsonParams);
     }
 
-    public JsonNode get(ReferenceValue reference, JsonNode response, JsonParams jsonParams) {
+    private JsonNode get(ReferenceValue reference, JsonNode response, JsonParams jsonParams) {
         if (response.isObject()) {
             return this.getObject(reference, response, jsonParams);
         }
@@ -24,7 +24,7 @@ public class JsonWriter {
         return null;
     }
 
-    public JsonNode getObject(ReferenceValue reference, JsonNode response, JsonParams jsonParams) {
+    private JsonNode getObject(ReferenceValue reference, JsonNode response, JsonParams jsonParams) {
         ObjectNode builderNode = JsonNodeFactory.instance.objectNode();
 
         response.fields().forEachRemaining(field -> {
@@ -46,7 +46,7 @@ public class JsonWriter {
         return builderNode;
     }
 
-    public JsonNode getArray(ReferenceValue reference, JsonNode response, JsonParams jsonParams) {
+    private JsonNode getArray(ReferenceValue reference, JsonNode response, JsonParams jsonParams) {
         ArrayNode builderNode = JsonNodeFactory.instance.arrayNode();
 
         reference.getChildReferences().forEach(referenceValue -> {

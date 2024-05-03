@@ -7,7 +7,7 @@
       "gt": "gt"
     }
   },
-  "arr --ref='new_arr'": [
+  "match --ref='match_arr'": [
     {
       "a": "a",
       "b": "b"

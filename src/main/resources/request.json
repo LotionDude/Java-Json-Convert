@@ -5,7 +5,7 @@
     "lt": "lt",
     "gt": "gt"
   },
-  "arr --ref='new_arr'": [
+  "match --ref='match_arr'": [
     {
       "match": {
         "a": "a",

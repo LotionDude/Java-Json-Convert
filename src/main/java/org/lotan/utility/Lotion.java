@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -16,6 +18,9 @@ public class Lotion {
 
     @JsonProperty("range_info")
     private RangeInfo rangeInfo;
+
+    @JsonProperty("match")
+    private List<Match> match;
 
     @Data
     @NoArgsConstructor
@@ -30,5 +35,13 @@ public class Lotion {
     public static class Range {
         private Integer lt;
         private Integer gt;
+    }
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Match {
+        private String a;
+        private String b;
     }
 }
