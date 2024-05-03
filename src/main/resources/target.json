@@ -1,17 +1,16 @@
 {
-  "name": "name",
-  "display_name": "display_name",
-  "range_info": {
-    "range": {
-      "lt": "lt",
-      "gt": "gt"
-    },
-    "range_unchanged": "range_unchanged"
+  "name": "lotan",
+  "display_name": "lotion_dude",
+  "range": {
+    "lt": 3,
+    "gt": 1
   },
   "arr": [
     {
-      "lt_arr": "lt_arr",
-      "rt_arr": "rt_arr"
+      "match": {
+        "a": 1,
+        "b": 10
+      }
     }
   ]
 }

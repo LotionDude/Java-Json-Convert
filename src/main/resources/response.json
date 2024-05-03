@@ -1,0 +1,16 @@
+{
+  "name": "name",
+  "display_name": "display_name",
+  "range_info": {
+    "range": {
+      "lt": "lt",
+      "gt": "gt"
+    }
+  },
+  "arr --ref='new_arr'": [
+    {
+      "a": "a",
+      "b": "b"
+    }
+  ]
+}

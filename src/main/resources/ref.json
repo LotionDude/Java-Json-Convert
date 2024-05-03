@@ -1,8 +1,0 @@
-{
-  "name": "name",
-  "display_name": "display_name",
-  "range --type=obj": {
-    "lt --type=val": "lt",
-    "gt --type=val": "gt"
-  }
-}

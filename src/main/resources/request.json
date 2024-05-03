@@ -1,0 +1,16 @@
+{
+  "name": "name",
+  "display_name": "display_name",
+  "range": {
+    "lt": "lt",
+    "gt": "gt"
+  },
+  "arr --ref='new_arr'": [
+    {
+      "match": {
+        "a": "a",
+        "b": "b"
+      }
+    }
+  ]
+}
