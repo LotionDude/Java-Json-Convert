@@ -58,7 +58,7 @@ schema.
 The text value defined in the request schema is an alias which will be mapped to the alias value defined in the response
 schema.
 
-For example, for the following target schema:
+For example, using our previously defined schema, for the following target object:
 
 ```json
 {
@@ -70,7 +70,7 @@ For example, for the following target schema:
 }
 ```
 
-Will get translated into:
+Will get converted into the following response object:
 
 ```json
 {
