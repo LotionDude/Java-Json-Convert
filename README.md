@@ -127,11 +127,12 @@ There are two ways to define flags
 - `--FLAG='VALUE'` - The name of the flag followed by the value inside single quote marks. Can include spaces
   inside the value.
 - `--FLAG=VALUE` - The name of the flag followed with its value. The value cannot contain spaces.
+
 For example: `name --type=arr --ref='my_arr'`
 
 #### Type flags
 
-Throws and error if the target object does not match the type of the request object.
+Throws an error if the target object does not match the type of the request object.
 (currently non-functional on response schema)
 
 - `--type=int`: Integer
